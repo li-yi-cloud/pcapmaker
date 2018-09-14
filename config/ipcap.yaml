@@ -1,0 +1,32 @@
+pcap_header: null
+#  time_zone: 0
+#  sigfigs: 0
+#  snaplen: 65535
+#  link_type: 0
+packet_1:
+  link_layer_header:
+    src_mac: '2a:6c:bf:0f:a6:a8'
+    dest_mac: '2a:6c:bf:0f:a6:a7'
+  ip_layer_header:
+    identification: 2
+    src_ip: null
+    dest_ip: null
+  transport_layer_header:
+    udp_header:
+      src_port: null
+      dest_port: null
+  application_layer_header:
+    pdxp_header: null
+  data_file: '../config/idata.txt'
+  # 128 + ip layer header length 20 + link layer header length 14
+  slice_length: 162
+packet_2:
+  link_layer_header:
+    src_mac: '2a:6c:bf:0f:a6:a8'
+    dest_mac: '2a:6c:bf:0f:a6:a7'
+  ip_layer_header:
+    identification: 5
+    src_ip: '192.168.3.11'
+    dest_ip: '10.94.2.11'
+  transport_layer_header:
+    igmp_header: null

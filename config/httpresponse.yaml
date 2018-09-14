@@ -1,0 +1,7 @@
+version: 'HTTP/1.1'
+response_code: 200
+headers:
+  Date: '19900120 12:30:31'
+  Server: 'cloud'
+  Content-Type: 'text/html;charset=utf-8'
+content: '<html><body><h1>This is a test.</h1><p>01</p></body></html>'
